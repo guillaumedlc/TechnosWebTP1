@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<h1> Curriculum Vitae</h1>
-		</header>>
+		</header>
 
 		<nav>
 			<div class ="table">
@@ -28,15 +28,33 @@
 					<li class="menu-projet">
 						<a href="projet.html">Projet</a>
 					</li>
-					<li class="menu-perso">
-						<a href="perso.html">Mes hobbies</a>
-					</li>
 					<li class="menu-contact">
 						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-
-		
-		</body>
+		<article>
+			<section id="experience">
+				<h1> Contact :</h1>
+				<div class="sec">
+					<form action="/ma-page-de-traitement" method="post">
+			    		<div>
+			        		<label for="name">Nom :</label>
+						        <input type="text" id="name" name="user_name">
+						</div>
+						<div>
+						    <label for="mail">e-mail :</label>
+						    <input type="email" id="mail" name="user_mail">
+						</div>
+						<div>
+						   	<label for="msg">Message :</label>
+						    <textarea id="msg" name="user_message"></textarea>
+						</div>
+					</form>
+				</div>
+		</article>
+	</body>
+	<footer>
+		<p> Copyright 2019 Guillaume de La Chapelle <p>
+	</footer>
